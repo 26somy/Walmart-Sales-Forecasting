@@ -256,7 +256,7 @@ From the ARIMA model graph, we see that the prediction and test results have few
 
 Root Mean Square Error (RMSE) is used in measuring forecast accuracy. So, the model which gets least RMSE value will be the best model to forecast for future dates.
 
-![arima](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/arima.PNG)
+![arima](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/arima.png)
 
 #### Holt Winters Time Series:
 
@@ -270,7 +270,7 @@ We have used holt winters exponential smoothening on data, so most of the values
 
 RMSE value is lower than Auto Arima.
 
-![hw](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/hw.PNG)
+![hw](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/hw.png)
 
 #### Seasonal AutoRegressive Integrated Moving Average (SARIMA):
 
@@ -279,7 +279,7 @@ pattern.
 
 In the below plot, the test and the prediction using SARIMA is almost the same. The RMSE value obtained is less when compared to the other two models. So we went ahead, in forecasting the future weekly sales for future dates using SARIMA model.
 
-![sarima](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/sarima.PNG)
+![sarima](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/sarima.png)
 
 ### Time Series Forecasting at Store and Department Level
 
@@ -287,11 +287,11 @@ A very efficient univariate function has been created which ***selects best mode
 
 We depict the forecasted weekly sales by selecting **store with the highest weekly sales (Store 20)** and the **department with the highest weekly sales (Department 92)**.
 
-![2092](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/2092.PNG)
+![2092](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/2092.png)
 
 Next we try another combination of store and department with lowest selling store (Store 5) and highest selling department (Department 92).
 
-![592](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/592.PNG)
+![592](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/592.png)
 
 ### Time Series Forecasting at Store Level
 
@@ -304,7 +304,7 @@ Similarly we could input any store ID and get the weekly sales forecast for that
 
 Forecast result for store 20
 
-![96](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/96.PNG)
+![96](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/96.png)
 
 ### Time Series Forecasting at Department Level
 
@@ -315,7 +315,7 @@ Below is what we observe. We have a total of 81 unique departments and have used
 Forecast result for department 92
 
 
-![92](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/92.PNG)
+![92](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/92.png)
 
 ### MultiVariate Time Series Model
 
@@ -332,7 +332,7 @@ We used AdFuller test to check the stationarity of the data. Once the data was s
 Two of the most important features influencing the Weekely sale was **Fuel Price and Temperature**.
 
 
-![mv](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/mv.PNG)
+![mv](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/mv.png)
 
 ## Time Vs Sale
 
