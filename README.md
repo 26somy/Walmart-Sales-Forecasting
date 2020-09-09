@@ -1,41 +1,4 @@
-# DSCI 521: Data Analysis and Interpretation <br> Term Project : Walmart Sales Forecasting
-
-
-### Team Members
-- Group member 1
-    - Name: Padma Priya Jayaraj
-    - Email: pj349@drexel.edu
-- Group member 2
-    - Name: Soumya Sinha
-    - Email: ss4947@drexel.edu
-- Group member 3
-    - Name: Himani Hasani
-    - Email: hh579@drexel.edu
-- Group member 4
-    - Name: Nishant Anand
-    - Email: na826@drexel.edu
-
-### Project Group Members 
-- Group member 1
-    - Name: Soumya Sinha
-    - Intro:Areas that the team member has control and knowledge of is business analytics with 3 years of experience having worked for retail and search advertising companies. I have hands on experience in R, Python, SQL and visualization tools like Tableau. More inclined to explore and analyse the retail domain utilising python as the major tool for visualization and data interpretation. Excited to enhance analytical skills through this course.
-
-    
-- Group member 2
-    - Name: Nishant Anand
-    - Inro: Undergrad in Computer Science with 4 year of work experience as a Software developer.My work experience and coursework have made me fluent in several programming languages and tools like Java,R,SQL,RestAPI. I am excited to learn more about interpreting the data and its potenetial application. 
-
-    
-- Group member 3
-    - Name: Padma Priya Jayaraj 
-    - Intro: I am passionate about data, I would love to explore, analyze any data and perform model building. Interested in predicting, forecating and classification techniques. I have learnt to use Python, R for building statistical models and analyzing data in the previous quarters. In future I would like to become a data scientist and practise Python, R, SQL, Excel skills which I am really fond of. I am more interested in Retail and Healthcare industry.
-
-
-- Group member 4
-    - Name: Himani Hasani
-    - Intro:  - My interest in data analytics developed during my undergrad education. Since then, I have gained a good knowledge in databases like  MySQL, MS SQL Server, PostgreSQL and Oracle. Apart from that I have interest in data Visualization. I intent to develop my programming skills and stronger analytical skills during the duration of this course.
-
-
+Walmart Sales Forecasting
 
 ## Problem Statement
 
