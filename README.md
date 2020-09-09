@@ -121,7 +121,7 @@ Reading the different files for our analysis.
 _No sales data in this file_
 
 <p align="center">
-<img width="900" height="400" src="https://github.com/26somy/Walmart-Sales-Forecasting/tree/master/images/features.png" width=500>
+<img width="900" height="400" src="https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/features.png" width=500>
 </p>
 
 **stores.csv** - Store information with size and type of store as either A, B or C. 
