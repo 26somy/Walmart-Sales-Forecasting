@@ -124,21 +124,15 @@ _No sales data in this file_
 
 **stores.csv** - Store information with size and type of store as either A, B or C. 
 
-<p align="center">
-<img width="200" height="200" src="images/stores.png" width=400>
-</p>
+![stores](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/stores.PNG)
 
 **train.csv** - Department store level weekly sales data. 
 
-<p align="center">
-<img width="300" height="400" src="Images/train.png" width=400>
-</p>
+![train](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/train.PNG)
 
 **New Merged_walmart.csv** - Merging files to get the store dept date level sales with external factors affecting sales 
 
-<p align="center">
-<img width="800" height="800" src="images/Merged.png" width=400>
-</p>
+![Merged](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/Merged.PNG)
 
 #### Missing Data
 
@@ -153,37 +147,25 @@ There is no data available for Markdown columns before November 2011. This is be
 [source](https://retailwire.com/discussion/walmart-to-share-scan-data/#:~:text=Walmart%20says%20it%20wants%20to%20better%20understand%20its%20customers.&text=Since%20Walmart%20first%20made%20the,to%20fully%20understanding%20the%20market)
 
 
-<p align="center">
-<img width="800" height="800" src="images/missing_values.png" width=400>
-</p>
+![missing_values](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/missing_values.PNG)
 
 #### Exploring the Data Types of all the variables
 
-<p align="center">
-<img width="200" height="300" src="images/datatype.png" width=200>
-</p>
+![datatype](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/datatype.PNG)
 
 The dataset represents sales data from 45 stores and 99 departments in them. Average weekly sales across all stores is 15981. The average temperature varies from store to store varying from -2 Fahrenheit to 100 Fahrenheit. This shows that the stores chosen belong to different regions in the United States as states in North have lower temperatures as compared to temperature in states in the South-West. The variation of fuel price shows that the fuel prices have gone high over the years due to changing economic conditions. But the variation in fuel price is not too high. The Markdown columns have the most amount of missing data. The CPI has changed from a minimum of 126 to a maximum of 227 in the given dataset. This explains that there has been constant growth in the price of consumer goods. The unemployment rate is provided for different stores. The average unemployment is high in the selected stores with a maximum of 14 in some store. The size of stores varies largely. This is can be seen by the the large value of standard deviation in the size column. The size of the store depends on where it is located. Thus a larger store might be seen in an area with higher population but areas with low population might not require it.
 
-<p align="center">
-<img width="800" height="800" src="images/merged_describe_1.png" width=400>
-</p>
+![merged_describe_1](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/merged_describe_1.PNG)
 
-<p align="center">
-<img width="800" height="800" src="images/merged_describe_2.png" width=400>
-</p>
+![merged_describe_2](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/merged_describe_2.PNG)
 
 #### Final Dataset
 
-<p align="center">
-<img width="800" height="800" src="images/final_dataset.png" width=400>
-</p>
+![final_dataset](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/final_dataset.PNG)
 
 #### Sample Time Series data for Store id =1 and Department id=1
 
-<p align="center">
-<img width="800" height="800" src="images/sample_time_series_dataset.png" width=400>
-</p>
+![sample_time_series_dataset](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/sample_time_series_dataset.PNG)
 
 #### Correlation 
 
@@ -195,43 +177,30 @@ Following correlation matrix is for Store=1 and Dept=1, in this:
 - Day and Markdown1 are highly correleated,meaning some promotional offers are related to specific days of the month.
 
 
-
-<p align="center">
-<img width="900" height="900" src="images/correlation_data.png" width=400>
-</p>
+![correlation_data](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/correlation_data.PNG)
 
 #### Boxplot for sizes of types of stores
 
 Below boxplot shows that Store Type A is the largest and store type C is the smallest in terms of Size. So it might be interesting to observe the weekly sales comparsion between these stores given that A is the largest store.
 
-<p align="center">
-<img width="400" height="400" src="images/boxplot_store.png" width=400>
-</p>
+![boxplot_store](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/boxplot_store.PNG)
 
 From the below box plot, Type A makes more sales when compared to B and C. The larger store makes more sales.
 
-<p align="center">
-<img width="400" height="400" src="images/boxplot_type.png" width=400>
-</p>
+![boxplot_type](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/boxplot_type.PNG)
 
 Weekly Sales is more when the temperature is 30-80 and its relatively low when the temperature is too low as well as when it is too high
 
-<p align="center">
-<img width="400" height="400" src="images/temperature_sales.png" width=400>
-</p>
+![temperature_sales](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/temperature_sales.PNG)
 
 December and November makes more weekly sales when compared to other months due to major holiday seasons like Thanksgiving and Christmas
 
-<p align="center">
-<img width="300" height="300" src="images/monthly_sales.png" width=400>
-</p>
+![monthly_sales](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/monthly_sales.PNG)
 
 #### Stores with highest Unemployment 
 The umemployment rate is higher in areas of stores 31, 30, 25, 21, 20 and 2. A reason for higher unemployment in these areas could be beacuse of the jobs people lost around The Great Recession of 2008.
 
-<p align="center">
-<img width="300" height="300" src="images/store_Unemployment.png" width=400>
-</p>
+![store_Unemployment](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/store_Unemployment.PNG)
 
 #### CPI across all the Stores
 
@@ -239,32 +208,24 @@ A high CPI across all stores is observed. This indicates inflation in prices of 
 
 Stores 22 and 35 have a comparatively low CPI, thus the price of goods in these stores might be less as compared to others. This might a reason to attract more consumers to these stores. Another reason could be that these stores are located in remote locations, therefore their sell might below. Also, the goods in these stores might be outdated resulting in lower prices of goods in these stores.
 
-<p align="center">
-<img width="300" height="300" src="images/CPI_store.png" width=400>
-</p>
+![CPI_store](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/CPI_store.PNG)
 
 #### Portion of timeframe with holidays in the week
 A pie chart representing Holiday vs non Holiday timeframe has been plotted for all the weeks present in the dataset. This trend would be same across all the 45 stores
 
-<p align="center">
-<img width="300" height="300" src="images/holiday_pie_chart.png" width=400>
-</p>
+![holiday_pie_chart](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/holiday_pie_chart.PNG)
 
 #### Store weekly sales
 
 Below bar graph shows weekly sales of every store. Store 20 has the highest weekly sales and store 5 the least weekly sales.
 
-<p align="center">
-<img width="800" height="800" src="images/stores_sales.png" width=400>
-</p>
+![stores_sales](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/stores_sales.PNG)
 
 #### Department wise weekly sales
 
 All the 45 stores have around 99 departments, so below bar graph shows the weekly sales in every department. Department 92 and 95 have very high weekly sales and it would be interesting to note the similar trend for other stores too.
 
-<p align="center">
-<img width="1000" height="1000" src="images/dept_weekly_sales.png" width=600>
-</p>
+![dept_weekly_sales](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/dept_weekly_sales.PNG)
 
 We now create DF for all the time series seperately for every store dept combination. Around 3331 time series are generated.
 
@@ -295,9 +256,7 @@ From the ARIMA model graph, we see that the prediction and test results have few
 
 Root Mean Square Error (RMSE) is used in measuring forecast accuracy. So, the model which gets least RMSE value will be the best model to forecast for future dates.
 
-<p align="center">
-<img width="1000" height="1000" src="images/arima.png" width=600>
-</p>
+![arima](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/arima.PNG)
 
 #### Holt Winters Time Series:
 
@@ -311,9 +270,7 @@ We have used holt winters exponential smoothening on data, so most of the values
 
 RMSE value is lower than Auto Arima.
 
-<p align="center">
-<img width="1000" height="1000" src="images/hw.png" width=600>
-</p>
+![hw](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/hw.PNG)
 
 #### Seasonal AutoRegressive Integrated Moving Average (SARIMA):
 
@@ -322,10 +279,7 @@ pattern.
 
 In the below plot, the test and the prediction using SARIMA is almost the same. The RMSE value obtained is less when compared to the other two models. So we went ahead, in forecasting the future weekly sales for future dates using SARIMA model.
 
-
-<p align="center">
-<img width="1000" height="1000" src="images/sarima.png" width=600>
-</p>
+![sarima](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/sarima.PNG)
 
 ### Time Series Forecasting at Store and Department Level
 
@@ -333,15 +287,11 @@ A very efficient univariate function has been created which ***selects best mode
 
 We depict the forecasted weekly sales by selecting **store with the highest weekly sales (Store 20)** and the **department with the highest weekly sales (Department 92)**.
 
-<p align="center">
-<img width="1000" height="1000" src="images/2092.png" width=600>
-</p>
+![2092](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/2092.PNG)
 
 Next we try another combination of store and department with lowest selling store (Store 5) and highest selling department (Department 92).
 
-<p align="center">
-<img width="1000" height="1000" src="images/592.png" width=600>
-</p>
+![592](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/592.PNG)
 
 ### Time Series Forecasting at Store Level
 
@@ -354,9 +304,7 @@ Similarly we could input any store ID and get the weekly sales forecast for that
 
 Forecast result for store 20
 
-<p align="center">
-<img width="1000" height="1000" src="images/96.png" width=600>
-</p>
+![96](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/96.PNG)
 
 ### Time Series Forecasting at Department Level
 
@@ -366,9 +314,8 @@ Below is what we observe. We have a total of 81 unique departments and have used
 
 Forecast result for department 92
 
-<p align="center">
-<img width="1000" height="1000" src="images/92.png" width=600>
-</p>
+
+![92](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/92.PNG)
 
 ### MultiVariate Time Series Model
 
@@ -384,9 +331,8 @@ This model is very useful for describing the dynamic behavior of economic and fi
 We used AdFuller test to check the stationarity of the data. Once the data was stationary we used the model with different combinations of lag.Once the predictions were made, the data was restructures to its original scale.
 Two of the most important features influencing the Weekely sale was **Fuel Price and Temperature**.
 
-<p align="center">
-<img width="900" height="900" src="images/mv.png" width=600>
-</p>
+
+![mv](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/mv.PNG)
 
 ## Time Vs Sale
 
@@ -408,9 +354,7 @@ Last week of May (22) when the kids are on vacation during summer*\
 
 **Insight:** So it is essential to study the forecast sales and analyse the results for the above weeks mentioned. This would be beneficial for the head of supply chain department who could take decisions on the inventory management to enhance the production optimization during such weeks as they would bring Walmart the most profit.
 
-<p align="center">
-<img width="600" height="600" src="images/Overall_sale_weekly.png" width=600>
-</p>
+![Overall_sale_weekly](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/Overall_sale_weekly.PNG)
 
 ### Conclusion and Recommendation
 
