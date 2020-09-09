@@ -120,9 +120,7 @@ Reading the different files for our analysis.
 **feature.csv** - Date level store information with additional columns like temperature, fuel price, CPI, Unemployment, markdown price that affect the store sales. 
 _No sales data in this file_
 
-<p align="center">
-<img width="900" height="400" src="https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/features.PNG" width=500>
-</p>
+![features](https://github.com/26somy/Walmart-Sales-Forecasting/blob/master/images/features.PNG)
 
 **stores.csv** - Store information with size and type of store as either A, B or C. 
 
